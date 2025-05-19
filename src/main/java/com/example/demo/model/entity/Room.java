@@ -27,5 +27,5 @@ public class Room {
 	private String roomName;
 	
 	@Column(name = "room_size", columnDefinition = "integer default 0")
-	private Integer roomZize;
+	private Integer roomSize;
 }
